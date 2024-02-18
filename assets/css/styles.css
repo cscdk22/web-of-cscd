@@ -223,3 +223,19 @@ a {
     text-align: left;
     color: #171100;
 }
+.hero-wrap .content-block .watch-video:hover{
+    cursor: pointer;
+}
+
+.hero-wrap .content-block .row{
+    display: flex;
+    gap: 28px;
+}
+.hero-wrap .content-block .row strong{
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    text-align: left;
+    color: #171100;
+    margin-right: 10px;
+}
