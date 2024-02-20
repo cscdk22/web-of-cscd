@@ -35,6 +35,25 @@ a {
 }
 .btn:hover{
     opacity: 0.9;
+    cursor: pointer;
+}
+.heading{
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 470px;
+}
+.desc{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5B53;
 }
 /* =====================================Header============================= */
 .header{
@@ -65,8 +84,7 @@ a {
     color: #5F5B53;
 }
 .navbar ul a:hover{
-    font-size: 1.6rem;
-    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;  
     color: #171100;
 }
 .navbar .sign-up-btn{
@@ -87,6 +105,7 @@ a {
     height: 2px;
     border-radius: 1px;
 }
+
 /* ======================================Hero=================================== */
 .hero-wrap{
     padding-top: 64px;
@@ -119,10 +138,11 @@ a {
 
 .hero-wrap .media-block .list .item {
     margin-left: 24px;
-    padding-top: 20px;
+    padding-top: 14px;
     display: flex;
 }
-.hero-wrap .media-block .list .item .desc{
+.hero-wrap .media-block .list .item .info{
+    font-size: 1.4rem;
     margin-left: 16px;
 }
 .hero-wrap .media-block .list .item .quantity{
@@ -148,7 +168,7 @@ a {
     align-items: center;
 }
 .hero-wrap .media-block .list .item:first-child {
-    padding-top: 30px;
+    margin-top: 24px;
 }
 .hero-wrap .media-block .list .item:first-child .icon{
     background-color: #FFF9E8;
@@ -164,26 +184,11 @@ a {
     margin-left: auto;
     width: 470px;
 }
-.hero-wrap .content-block .title{
-    font-family: Sen;
-    font-size: 5.8rem;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    text-align: left;
-    width: 470px;
+
+.hero-wrap .content-block .heading{
     margin-bottom: 22px;
 }
 
-.hero-wrap .content-block .desc{
-    font-family: Poppins;
-    font-size: 1.8rem;
-    font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #5F5B53;
-}
 .hero-wrap .content-block .btn{
     margin-top: 38px;
     margin-bottom: 48px;
@@ -238,4 +243,121 @@ a {
     text-align: left;
     color: #171100;
     margin-right: 10px;
+}
+
+/* =============================Popular======================================== */
+.popular{
+    margin-top: 200px;
+}
+
+.popular .heading{
+    font-size: 3.8rem;
+    margin-bottom: 18px;
+}
+
+.popular-top{
+    display: flex;
+    align-items: center;
+}
+
+.popular-top .desc{
+    max-width: 458px;
+}
+
+.popular-top .controls{
+    margin-left: auto;
+    display: flex;
+    gap: 18px;
+}
+
+.popular-top .control-btn{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFB900;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFB900;
+}
+.popular-top .control-btn:hover{
+    color: #FFF;
+    background-color: #FFB900;
+    cursor: pointer;
+}
+                        /* course-list */
+.popular .course-list{
+    display: flex;
+    margin-top: 55px;
+    gap: 30px;
+}
+
+.popular .course-list .item {
+    width: 370px;
+    height: 466px;
+    border: 1px solid #E2DFDA;
+    border-radius: 12px;
+}
+.popular .course-list .item:hover{
+    border: 1px solid #FFF;
+    box-shadow: 0px 18px 36px 0px #0000000D;
+}
+.popular .course-list .item .thumb{
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+.popular .course-list .item .info{
+    padding: 16px 22px 22px 22px;
+}
+.popular .course-list .item .info .head {
+    display: flex;
+    align-items: center;
+}
+.popular .course-list .item .info .head .title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: left;
+    color: #171100;
+}
+.popular .course-list .item .info .head .star{
+    margin-left: auto;
+    margin-right: 6px;
+}
+.popular .course-list .item .info .head .rating{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+    color: #FEA31B;
+}
+.popular .course-list .item .info .desc{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 13px;
+}
+.popular .course-list .item .info .foot{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.popular .course-list .item .info .price{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: left;
+}
+.popular .course-list .item .info .foot .btn{
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px 0;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+.popular .course-list .item .info .foot .btn:hover{
+    color: #FFF;
+    background-color: #FFB900;
 }
