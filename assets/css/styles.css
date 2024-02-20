@@ -451,3 +451,79 @@ a {
     top: 0;
     left: -30px;
 }
+/* ======================================Featured 1====================================== */
+.features{
+    margin-top: 200px;
+}
+
+.features .body{
+    display: flex;
+}
+
+.features .images{
+    display: flex;
+    gap: 30px;
+}
+
+.features .images .img{
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.features .images .img:first-child{
+    margin-top: 34px;
+}
+.features .feature-content{
+    margin-top: 58px;
+    margin-left: 130px;
+}
+.features .feature-content .heading{
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.features .feature-content .desc{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.features .feature-content .btn{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #FFB900;
+    border-radius: 26px;
+    display: inline-block;
+    min-width: 137px;
+    padding: 11px 0;
+    margin-top: 32px;
+}
+
+/* ======================================Featured 2====================================== */
+
+.features-2 .body{
+    flex-direction: row-reverse;
+}
+
+.features-2 .body .images .img{
+    width: 470px;
+    height: 440px;
+}
+.features-2 .body .feature-content{
+    margin-left: 0px;
+}
+.features-2 .body .feature-content .heading{
+    margin-top: 15px;
+    min-width: 570px;
+}
