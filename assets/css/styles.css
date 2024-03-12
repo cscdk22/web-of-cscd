@@ -63,6 +63,10 @@ a {
     /* background-color: #ff5151; */
     background-color: #FFF;
     z-index: 1;
+<<<<<<< HEAD
+=======
+    background-color:#e9e7e7 ;
+>>>>>>> bcd5aee397080ca6ab54310b5007c80e21e1c264
 }
 /* ========================================Navigation============================== */
 .navbar{
@@ -92,7 +96,11 @@ a {
     font-size: 1.9rem;
     font-weight: 700;
     text-align: center;
+<<<<<<< HEAD
     color: #282725;
+=======
+    color: black;
+>>>>>>> bcd5aee397080ca6ab54310b5007c80e21e1c264
 }
 .navbar ul a:hover{
     text-shadow: 1px 0 0 currentColor;  
