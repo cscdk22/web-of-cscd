@@ -10,28 +10,33 @@
     margin-right: auto;
 }
 
-.project__top::before,
+.project__top::before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 360px;
+    height: 5px;
+    background-color: black;
+    top: 20px;
+    border-radius: 5px;
+    left: 175px;
+}
 .project__top::after {
     position: absolute;
     display: block;
     content: "";
-    width: 285px;
+    width: 360px;
     height: 5px;
     background-color: black;
-    top: 32px;
+    top: 20px;
+    right: 175px;
     border-radius: 5px;
 }
 
-.project__top::before {
-    left: 320px;
-}
 
-.project__top::after {
-    right: 320px;
-}
 
 .project__top .project__heading {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 1000;
     line-height: 1.2;
     color: #ff5151;
