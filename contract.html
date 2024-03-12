@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tài liệu lần 1</title>
+        <title>CSCĐ - Cuộc sống cô đơn</title>
         <!-- reset css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- styles -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <link rel="stylesheet" href="./assets/css/tailieulan1.css" />
+        <link rel="stylesheet" href="./assets/css/contract.css" />
         <!-- Embed font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -104,7 +104,7 @@
             <div class="content">
                 <!-- Navbar -->
                 <nav class="navbar">
-                    <a>
+                    <a href="">
                         <img
                             src="./assets/img/Logo-cscd.png"
                             alt="Lesson"
@@ -115,15 +115,15 @@
                             <a href="index.html">Giới thiệu</a>
                         </li>
                         <li>
-                            <a href="contract.html">Hợp đồng</a>
-                        </li>
-                        <li>
                             <a
-                                href="tailieu.html"
+                                href="contract.html"
                                 style="color: #ef5759; font-weight: 800"
                                 class="active"
-                                >Tài liệu</a
+                                >Hợp đồng</a
                             >
+                        </li>
+                        <li>
+                            <a href="tailieu.html">Tài liệu</a>
                         </li>
                         <li>
                             <a href="project.html">Đồ án</a>
@@ -132,42 +132,32 @@
                             <a href="#footer">Liên hệ</a>
                         </li>
                     </ul>
-                    <a href="index.html" class="btn">CSCĐ.</a>
+                    <a href="" class="btn">CSCĐ.</a>
                 </nav>
             </div>
         </header>
 
         <main>
-            <div class="boxofpdf">
-                <div class="pdf_1">
-                    <div class="titleofpdf">
-                        <h2 style="color: #3e3e3e" class="titleofpdf_h2">
-                            BIÊN BẢN HỌP
-                        </h2>
-                        <h2 class="titleofpdf_h2">LẦN 1</h2>
-                    </div>
-
+            <!-- ĐỒ ÁN -->
+            <section class="contract">
+                <div class="contract__top">
+                    <h2 class="contract__heading">HỢP ĐỒNG THÀNH LẬP NHÓM</h2>
+                    <p class="contract__desc">
+                        Hợp đồng thành lập nhóm CSCĐ đã được toàn bộ thành viên
+                        thảo luận và nhất trí nhằm hoàn thành hiệu quả các công
+                        việc của nhóm
+                    </p>
+                </div>
+                <div class="contract__content">
                     <iframe
-                        src="./assets/file_folder/Biên bản họp lần 1 CSCĐ.pdf"
-                        frameborder="0"
-                        class="pdf"
+                        src="./assets/img/contract.pdf"
+                        width="980"
+                        height="530"
+                        allow="autoplay"
+                        title="contract"
                     ></iframe>
                 </div>
-
-                <div class="pdf_2">
-                    <div class="titleofpdf">
-                        <h2 style="color: #3e3e3e" class="titleofpdf_h2">
-                            PHÂN CÔNG
-                        </h2>
-                        <h2 class="titleofpdf_h2">LẦN 1</h2>
-                    </div>
-                    <iframe
-                        src="./assets/file_folder/test.pdf"
-                        frameborder="0"
-                        class="pdf"
-                    ></iframe>
-                </div>
-            </div>
+            </section>
         </main>
         <!-- Footer -->
         <div class="footer" id="footer">

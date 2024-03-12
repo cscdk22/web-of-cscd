@@ -1,0 +1,115 @@
+/* PROJECT */
+.project {
+    padding-top: 65px;
+}
+
+.project__top {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project__top::before,
+.project__top::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 285px;
+    height: 5px;
+    background-color: black;
+    top: 32px;
+    border-radius: 5px;
+}
+
+.project__top::before {
+    left: 320px;
+}
+
+.project__top::after {
+    right: 320px;
+}
+
+.project__top .project__heading {
+    font-size: 6rem;
+    font-weight: 1000;
+    line-height: 1.2;
+    color: #ff5151;
+    text-align: center;
+}
+
+.project__top .project__desc {
+    margin-top: 5px;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #5f5b53;
+}
+
+.project__bottom {
+    display: flex;
+    margin: 90px 130px 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project__img {
+    width: 503px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.project__content {
+    width: 50%;
+}
+
+.project__content .content-heading {
+    color: #111;
+    font-size: 4rem;
+    font-weight: 700;
+    /* background-color: #ff5151; */
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.project__content .content-desc {
+    font-weight: 500;
+    line-height: 1.75;
+    font-size: 1.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px;
+    color: #5f5b53;
+}
+
+.project__content .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    font-weight: 800px;
+    border-radius: 35px;
+    background-color: #ff5151;
+    color: #111;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    box-shadow: 0px 13px 26px -8px #ff5b2e6b;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.project__content .arrow {
+    width: 30px;
+    height: 30px;
+    background-color: #111;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700px;
+}
+
+.project__content .arrow img {
+    width: 15px;
+    height: 15px;
+}

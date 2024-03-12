@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tài liệu lần 1</title>
+        <title>CSCĐ - Cuộc sống cô đơn</title>
         <!-- reset css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- styles -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
-        <link rel="stylesheet" href="./assets/css/tailieulan1.css" />
+        <link rel="stylesheet" href="./assets/css/project.css" />
         <!-- Embed font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -104,7 +104,7 @@
             <div class="content">
                 <!-- Navbar -->
                 <nav class="navbar">
-                    <a>
+                    <a href="">
                         <img
                             src="./assets/img/Logo-cscd.png"
                             alt="Lesson"
@@ -118,56 +118,82 @@
                             <a href="contract.html">Hợp đồng</a>
                         </li>
                         <li>
-                            <a
-                                href="tailieu.html"
-                                style="color: #ef5759; font-weight: 800"
-                                class="active"
-                                >Tài liệu</a
-                            >
+                            <a href="tailieu.html">Tài liệu</a>
                         </li>
                         <li>
-                            <a href="project.html">Đồ án</a>
+                            <a
+                                href="project.html"
+                                style="color: #ef5759; font-weight: 800"
+                                class="active"
+                                >Đồ án</a
+                            >
                         </li>
                         <li>
                             <a href="#footer">Liên hệ</a>
                         </li>
                     </ul>
-                    <a href="index.html" class="btn">CSCĐ.</a>
+                    <a href="" class="btn">CSCĐ.</a>
                 </nav>
             </div>
         </header>
-
         <main>
-            <div class="boxofpdf">
-                <div class="pdf_1">
-                    <div class="titleofpdf">
-                        <h2 style="color: #3e3e3e" class="titleofpdf_h2">
-                            BIÊN BẢN HỌP
-                        </h2>
-                        <h2 class="titleofpdf_h2">LẦN 1</h2>
-                    </div>
-
-                    <iframe
-                        src="./assets/file_folder/Biên bản họp lần 1 CSCĐ.pdf"
-                        frameborder="0"
-                        class="pdf"
-                    ></iframe>
+            <!-- ĐỒ ÁN -->
+            <section class="project" id="project">
+                <div class="container">
+                    <section class="project__top">
+                        <h2 class="project__heading">ĐỒ ÁN</h2>
+                    </section>
+                    <section class="project__bottom">
+                        <figure class="project__image">
+                            <img
+                                src="./assets/img/pexels-cottonbro-studio-5473302.jpg"
+                                alt=""
+                                class="project__img"
+                            />
+                        </figure>
+                        <div class="project__content">
+                            <div class="content__abt">
+                                <h2 class="abt__heading content-heading">
+                                    Đề tài
+                                </h2>
+                                <p class="abt__desc content-desc">
+                                    Trang web nội bộ của doanh nghiệp cung cấp
+                                    các tính năng như đăng nhập, bảng tin, thông
+                                    báo, thư viện tài liệu, cơ cấu tổ chức,
+                                    thông tin liên lạc, xử lý yêu cầu và quản lý
+                                    lịch làm việc, lịch phòng họp.
+                                </p>
+                            </div>
+                            <div class="content__product">
+                                <h2 class="product__heading content-heading">
+                                    Sản phẩm
+                                </h2>
+                                <p class="product__desc content-desc">
+                                    Sau một quãng thời gian tìm hiểu và nghiên
+                                    cứu, CSCĐ xin được giới thiệu đến các bạn
+                                    sản phẩm website nội bộ của doanh nghiệp.
+                                    Thành tựu hôm nay là kết quả của sự nỗ lực
+                                    và cống hiến từ tất cả các thành viên trong
+                                    nhóm. Chúng tôi mong nhận được sự đón nhận
+                                    và phản hồi từ các bạn, nhằm giúp sản phẩm
+                                    của chúng tôi được hoàn thiện hơn. Xin trân
+                                    trọng cảm ơn sự quan tâm và đóng góp của các
+                                    bạn.
+                                </p>
+                            </div>
+                            <a href="#member" class="btn"
+                                >Xem sản phẩm!
+                                <div class="arrow">
+                                    <i
+                                        class="fa-solid fa-arrow-right"
+                                        style="color: #ff5151"
+                                    ></i>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
                 </div>
-
-                <div class="pdf_2">
-                    <div class="titleofpdf">
-                        <h2 style="color: #3e3e3e" class="titleofpdf_h2">
-                            PHÂN CÔNG
-                        </h2>
-                        <h2 class="titleofpdf_h2">LẦN 1</h2>
-                    </div>
-                    <iframe
-                        src="./assets/file_folder/test.pdf"
-                        frameborder="0"
-                        class="pdf"
-                    ></iframe>
-                </div>
-            </div>
+            </section>
         </main>
         <!-- Footer -->
         <div class="footer" id="footer">

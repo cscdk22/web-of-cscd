@@ -1,0 +1,56 @@
+/* CONTRACT */
+.contract {
+    padding: 65px 0;
+}
+
+.contract__top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contract__top::before,
+.contract__top::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.contract__top::before {
+    top: 22px;
+    left: 170px;
+}
+
+.contract__top::after {
+    top: 22px;
+    right: 170px;
+}
+
+.contract__heading {
+    font-size: 4.5rem;
+    font-weight: 1000;
+    line-height: 1.2;
+    color: #ff5151;
+    text-align: center;
+}
+
+.contract__desc {
+    width: 50%;
+    font-size: 2.1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    color: #5f5b53;
+}
+
+.contract__content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
